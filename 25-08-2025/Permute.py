@@ -13,9 +13,6 @@ def getAllper(arr):
       ans.append(per)
   return ans
   
-
-
-
 def main():
   arr = [1,2,3]
   ans = getAllper(arr)

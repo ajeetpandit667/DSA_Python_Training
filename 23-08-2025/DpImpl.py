@@ -10,11 +10,6 @@ def climbStairsWithDict(n,dict):
   y = climbStairsWithDict(n-2,dict)
   dict[n-2] = y
   return x+y
-  
-  
-
-
-
 
 def climbStairsWithArray(n,dp):
   if dp[n] != 0: return dp[n]
@@ -27,7 +22,6 @@ def climbStairsWithArray(n,dp):
   dp[n-2] = y
   return x+y
   #return climbStairsWithArray(n-1)+climbStairsWithArray(n-2)
-
 
 def main():
   n = 100
